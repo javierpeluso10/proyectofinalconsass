@@ -1,0 +1,14 @@
+.contenedorImpresion3d{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+.texto{
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.nav ul.nav-menu.show{
+    transform: translateX(-5px);
+}
