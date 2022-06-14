@@ -76,7 +76,6 @@ ul {
           justify-content: flex-end;
   font-weight: bold;
   margin: 5px 0px 5px 0px;
-  margin: auto;
 }
 
 .text-color {
@@ -286,13 +285,6 @@ body {
   color: #ffffff;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 /*MEDIAS QUERY*/
 @media (max-width: 865px) {
   .nav ul.nav-menu {
@@ -462,5 +454,12 @@ body {
   .botonForm {
     margin-right: 90px;
   }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 /*# sourceMappingURL=estilos.css.map */

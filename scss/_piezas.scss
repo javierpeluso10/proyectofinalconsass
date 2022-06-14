@@ -17,11 +17,11 @@
 
 .linkForm{
     text-decoration: underline;
-    color: #f1e153;
+    color: $formColor;
 }
 
 .linkForm:hover{
-    color: #c07e04;
+    color: $formHover;
 }
 
 .piezaFilamento{

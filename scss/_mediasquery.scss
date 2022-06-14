@@ -1,0 +1,160 @@
+/*MEDIAS QUERY*/
+
+@media (max-width: 865px) {
+    .nav ul.nav-menu{
+        display:block;
+        position: absolute;
+        top:0;
+        left: 0;
+        height: 100%;
+        transform: translateX(-400px); /*-5*/
+        padding: 30px;
+        opacity: .9;
+        background-color: #4d4c4c;
+        z-index: 3;
+        transition: transform .5s ease-in-out;
+    }
+    .logo{
+        margin-top: -15px;
+    }
+    .menu-btn{
+        display: block;
+        margin-top: 8px;
+    }
+    .btn-search{
+        margin: 7px 50px 0px 0px;
+    }
+    .contenedorImpresion3d{
+        grid-template-columns: 1fr;
+    }
+    .texto{
+        width: 95%;
+        text-align: justify;
+    }
+    .video-youtube{
+        width: 500px;
+        height: 300px;
+    }
+    .form{
+        margin: auto;
+        width: 600px;
+    }
+    .carousel{
+        margin-bottom: 500px;
+    }
+}  
+
+@media (max-width: 528px) {
+    .nav ul.nav-menu{
+        display:block;
+        position: absolute;
+        top:0;
+        left: 0;
+        height: 100%;
+        transform: translateX(-250px); /*-25*/
+        padding: 20px;
+        opacity: .9;
+        background-color: #4d4c4c;
+        z-index: 3;
+        transition: transform .5s ease-in-out;
+    }
+    .logo{
+        margin-top: -20px;
+    }
+    .menu-btn{
+        display: block;
+        margin-top: 8px;
+    }
+    .btn-search{
+        margin: 7px 50px 0px 0px;
+    }
+    .cardPosition{
+        width: fit-content;
+        margin: auto;
+    }
+    .contenedorImpresion3d{
+        grid-template-columns: 1fr;
+    }
+    .texto{
+        width: 95%;
+        padding: 15px;
+        text-align: justify;
+    }
+    .video-youtube{
+        width: 300px;
+        height: 300px;
+    }
+    .imgCarrousel{
+        width: 300px;
+        height: 300px;
+    }
+    .footer{
+        margin-top: 100px;
+    }
+    .form{
+        margin: auto;
+        width: 400px;
+    }
+} 
+
+@media (max-width: 515px){
+    .contenedorFotos{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .tipos3ds{
+        margin: auto;
+        padding: 40px;
+        height: 400px;
+        width: 400px;
+    }
+    .botonForm{
+        margin-bottom: 300px;
+    }
+}
+
+@media (max-width: 390px){
+    .texto{
+        width: 320px;
+        margin: auto;
+    }
+    .tipos3ds{
+        margin: auto;
+        width: 300px;
+        height: 300px;
+    }
+
+    .piezasImpresas{
+        margin-top: 20px;
+        
+    }
+    
+    .imgCarrousel{
+        height: 200px;
+        width: 200px;
+    }
+    .footer{
+    margin-top: 205px;
+    }
+
+    .form{
+        width: 350px;
+    }
+    .botonForm{
+        margin-right: 90px;
+    }
+    .carousel{
+        margin-bottom: 255px;
+        margin-top: 250px;
+
+    }
+}
+
+@media (max-width: 320px){
+    .form{
+        width: 320px;
+    }
+    .botonForm{
+        margin-right: 90px;
+    }
+}
