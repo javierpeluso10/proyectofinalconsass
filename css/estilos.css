@@ -87,6 +87,44 @@ ul {
   padding: 22px;
 }
 
+.piezasImpresas {
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.parrafoPiezas {
+  padding: 10px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  line-height: 2;
+}
+
+.linkForm {
+  text-decoration: underline;
+  color: #f1e153;
+}
+
+.linkForm:hover {
+  color: #c07e04;
+}
+
+.piezaFilamento {
+  width: 590px;
+  height: 287px;
+  padding: 20px;
+}
+
+.tituloPiezas {
+  margin: 50px 0px 0px 30px;
+  text-align: center;
+}
+
+.carousel {
+  margin-top: 30px;
+}
+
 .tipos3ds {
   width: 250px;
   height: 250px;
@@ -213,6 +251,12 @@ ul {
 .form {
   margin: auto;
   width: 900px;
+}
+
+.contacto {
+  text-align: center;
+  margin-bottom: 40px;
+  text-decoration: none;
 }
 
 h1 {
