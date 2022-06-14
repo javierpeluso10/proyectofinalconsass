@@ -80,6 +80,7 @@ ul {
 
 .text-color {
   background-color: #000000;
+  text-align: center;
 }
 
 .cardPosition {
@@ -120,8 +121,16 @@ ul {
   text-align: center;
 }
 
+.tituloPiezas2 {
+  text-align: center;
+}
+
+.tituloPiezas3 {
+  text-align: center;
+}
+
 .carousel {
-  margin-top: 30px;
+  margin: 30px 0px;
 }
 
 .tipos3ds {
@@ -286,6 +295,37 @@ body {
 }
 
 /*MEDIAS QUERY*/
+@media (max-width: 1200px) {
+  .piezaFilamento {
+    width: 442px;
+    height: 216px;
+    padding: 10px;
+    margin: 0px auto;
+  }
+  .imagencita {
+    text-align: center;
+  }
+  .contenedorImpresion3d {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 992px) {
+  .imagencita {
+    text-align: center;
+  }
+  .parrafoPiezas {
+    padding: 10px;
+    text-align: center;
+    line-height: 2;
+  }
+  .contenedorImpresion3d {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 865px) {
   .nav ul.nav-menu {
     display: block;
@@ -310,7 +350,7 @@ body {
   }
   .menu-btn {
     display: block;
-    margin-top: 8px;
+    margin-top: 15px;
   }
   .btn-search {
     margin: 7px 50px 0px 0px;
@@ -331,8 +371,23 @@ body {
     margin: auto;
     width: 600px;
   }
-  .carousel {
-    margin-bottom: 500px;
+}
+
+@media (max-width: 768px) {
+  .imagencita {
+    text-align: center;
+  }
+  .parrafoPiezas {
+    padding: 10px;
+    text-align: center;
+    line-height: 2;
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .form {
+    width: 100vw;
   }
 }
 
@@ -360,7 +415,7 @@ body {
   }
   .menu-btn {
     display: block;
-    margin-top: 8px;
+    margin-top: 15px;
   }
   .btn-search {
     margin: 7px 50px 0px 0px;
@@ -389,15 +444,26 @@ body {
     height: 300px;
   }
   .footer {
-    margin-top: 100px;
+    margin-top: 30px;
   }
   .form {
     margin: auto;
     width: 400px;
   }
+  .imagencita {
+    text-align: center;
+  }
+  .tituloPiezas {
+    margin: 50px 0 0 10px;
+    text-align: center;
+    text-decoration: underline;
+  }
 }
 
 @media (max-width: 515px) {
+  .menu-btn {
+    margin-top: 15px;
+  }
   .contenedorFotos {
     display: -ms-grid;
     display: grid;
@@ -411,11 +477,36 @@ body {
     width: 400px;
   }
   .botonForm {
-    margin-bottom: 300px;
+    margin-bottom: 20px;
+  }
+  .imagencita {
+    text-align: center;
+  }
+  .footer {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 454px) {
+  .imagencita {
+    text-align: center;
+  }
+  .piezaFilamento {
+    width: 295px;
+    height: 144px;
+  }
+  .parrafoPiezas {
+    padding: 10px;
+    text-align: center;
+    line-height: 2;
+    margin-left: 35px;
   }
 }
 
 @media (max-width: 390px) {
+  .menu-btn {
+    margin-top: 15px;
+  }
   .texto {
     width: 320px;
     margin: auto;
@@ -428,31 +519,57 @@ body {
   .piezasImpresas {
     margin-top: 20px;
   }
+  .imagencita {
+    text-align: center;
+  }
+  .piezaFilamento {
+    width: 295px;
+    height: 144px;
+  }
+  .parrafoPiezas {
+    padding: 10px;
+    text-align: center;
+    line-height: 2;
+    margin-left: 30px;
+  }
   .imgCarrousel {
     height: 200px;
     width: 200px;
   }
   .footer {
-    margin-top: 205px;
+    margin-top: 30px;
   }
-  .form {
-    width: 350px;
-  }
-  .botonForm {
-    margin-right: 90px;
-  }
-  .carousel {
-    margin-bottom: 255px;
-    margin-top: 250px;
-  }
-}
-
-@media (max-width: 320px) {
   .form {
     width: 320px;
   }
   .botonForm {
     margin-right: 90px;
+  }
+}
+
+@media (max-width: 320px) {
+  .menu-btn {
+    margin-top: 15px;
+  }
+  .form {
+    width: 300px;
+  }
+  .botonForm {
+    margin: 20px;
+  }
+  .piezaFilamento {
+    width: 294px;
+    height: 144px;
+    margin: 0;
+  }
+  .parrafoPiezas {
+    padding: 10px;
+    text-align: center;
+    line-height: 2;
+    margin-left: 30px;
+  }
+  .footer {
+    margin-top: 30px;
   }
 }
 
