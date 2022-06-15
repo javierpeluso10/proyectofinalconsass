@@ -608,9 +608,6 @@ body {
 }
 
 @media (max-width: 390px) {
-  .menu-btn {
-    margin-top: 15px;
-  }
   .texto {
     width: 320px;
     margin: auto;
@@ -652,9 +649,6 @@ body {
 }
 
 @media (max-width: 320px) {
-  .menu-btn {
-    margin-top: 15px;
-  }
   .form {
     width: 300px;
   }
