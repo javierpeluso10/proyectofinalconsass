@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 se actualizo alt's y title
 se corrigio seo
 se corrijieron enlaces
@@ -6,3 +7,13 @@ se agrega etiqueta main en todos los html
 se utilizo mixin en partial global
 
 
+=======
+se actualizo alt's y title
+se corrigio seo
+se corrijieron enlaces
+se actualizo pagina Piezas Impresas y Contacto
+se agrega etiqueta main en todos los html
+se utilizo mixin en partial global
+
+
+>>>>>>> 3c4d27d5ce0c9e5de80ff49d3e21b5ba39bbf33b
