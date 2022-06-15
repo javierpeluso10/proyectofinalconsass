@@ -45,11 +45,11 @@
         margin-top: -15px;
     }
     .menu-btn{
+        margin: 5px;
         display: block;
-        margin-top: 15px;
     }
     .btn-search{
-        margin: 7px 50px 0px 0px;
+        margin: 5px 60px;
     }
     .contenedorImpresion3d{
         grid-template-columns: 1fr;
@@ -69,7 +69,7 @@
 }  
 @media (max-width: 768px){
     .menu-btn{
-        margin: 10px;
+        margin: 5px;
     }
     .btn-search{
         margin: 5px 60px;
@@ -87,7 +87,7 @@
 }
 @media (max-width: 600px){
     .menu-btn{
-        margin: 10px;
+        margin: 5px;
     }
     .btn-search{
         margin: 5px 60px;
@@ -115,7 +115,7 @@
         margin-top: -20px;
     }
     .menu-btn{
-        margin: 10px;
+        margin: 5px;
     }
     .btn-search{
         margin: 5px 60px;
@@ -159,12 +159,11 @@
 
 @media (max-width: 515px){
     .menu-btn{
-        margin: 10px;
+        margin: 5px;
     }
     .btn-search{
         margin: 5px 60px;
     }
-
     .contenedorFotos{
         display: grid;
         grid-template-columns: 1fr;
@@ -188,7 +187,7 @@
 
 @media (max-width: 454px){
     .menu-btn{
-        margin: 10px;
+        margin: 5px;
     }
     .btn-search{
         margin: 5px 60px;
@@ -260,6 +259,12 @@
 }
 
 @media (max-width: 320px){
+    .menu-btn{
+        margin: 5px;
+    }
+    .btn-search{
+        margin: 5px 60px;
+    }
     .form{
         width: 300px;
     }
