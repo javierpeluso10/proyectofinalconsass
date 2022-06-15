@@ -68,6 +68,12 @@
     }
 }  
 @media (max-width: 768px){
+    .menu-btn{
+        margin: 10px;
+    }
+    .btn-search{
+        margin: 5px 60px;
+    }
     .imagencita{
         text-align: center;
     }
@@ -80,6 +86,12 @@
     
 }
 @media (max-width: 600px){
+    .menu-btn{
+        margin: 10px;
+    }
+    .btn-search{
+        margin: 5px 60px;
+    }
     .form{
         width: 100vw;
     }
@@ -103,11 +115,10 @@
         margin-top: -20px;
     }
     .menu-btn{
-        display: block;
-        margin-top: 15px;
+        margin: 10px;
     }
     .btn-search{
-        margin: 7px 50px 0px 0px;
+        margin: 5px 60px;
     }
     .cardPosition{
         width: fit-content;
@@ -148,8 +159,12 @@
 
 @media (max-width: 515px){
     .menu-btn{
-        margin-top: 15px;
+        margin: 10px;
     }
+    .btn-search{
+        margin: 5px 60px;
+    }
+
     .contenedorFotos{
         display: grid;
         grid-template-columns: 1fr;
@@ -172,6 +187,12 @@
 }
 
 @media (max-width: 454px){
+    .menu-btn{
+        margin: 10px;
+    }
+    .btn-search{
+        margin: 5px 60px;
+    }
         .imagencita{
             text-align: center;
         }
@@ -189,6 +210,12 @@
 
 
 @media (max-width: 390px){
+    .menu-btn{
+        margin: 10px;
+    }
+    .btn-search{
+        margin: 5px 60px;
+    }
     .texto{
         width: 320px;
         margin: auto;
